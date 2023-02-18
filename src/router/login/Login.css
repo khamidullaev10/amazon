@@ -1,0 +1,111 @@
+.login
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 9%;
+}
+.login_logo
+{
+    width: 100px;
+}
+.login_signIn
+{
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    margin-top: 20px;
+    padding: 10px 25px;
+}
+.SI_title
+{
+    font-weight: 500;
+    font-size: 30px;
+    text-align-last: left;
+    margin-bottom: 10px;
+}
+.SI_place
+{
+    font-size: 13px;
+    font-weight: 700;
+    text-align-last: left;
+    margin-bottom: 5px;
+}
+.loginInp
+{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: 1px solid #a7a7a7;
+    text-indent: 7px;
+}
+.loginInp:focus
+{
+    box-shadow: 1px 1px 10px 1px orange;
+}
+.signButton
+{
+    width: 100%;
+    height: 30px;
+    background: #ffc229;
+    border: none;
+    margin-top: 15px;
+    border-radius: 1px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.signLorem
+{
+    font-size: 12px;
+    text-align-last: left;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.loremSpan
+{
+    color: #026b9c;
+    text-align-last: left;
+}
+.signHelp
+{
+    color: #026b9c;
+    font-size: 13px;
+    text-align-last: left;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.newAmzonLogin
+{
+    width: 350px;
+    height: 50px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.newLoginChild
+{
+    width: 110px;
+    height: 1px;
+    background: #d3d3d3;
+}
+.newAmazonText
+{
+    font-size: 13px;
+    font-weight: 600;
+    color: #a3a3a3;
+}
+.newAmazonAccount
+{
+    width: 350px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #b9b;
+    border-radius: 2px;
+}

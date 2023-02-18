@@ -1,0 +1,267 @@
+.navbar_top{
+    width: 100%;
+    height: 60px;
+    background: var(--bg-dark);
+    display: flex;
+    align-items: center;
+    padding: 4px 15px;
+}
+.logo{
+    width: 120px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    margin-top: 4px;
+}
+.nav_border{
+    border: 1px solid transparent;
+    padding: 0 10px;
+    border-radius: 2px;
+    height: 100%;
+}
+.nav_border:hover{
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.deliver{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.deliver p{
+    font-size: 12px;
+    color: #888;
+}
+.deliver svg{
+    font-size: 19px;
+    margin-top: 6px;
+}
+
+.nav_search{
+    background: #fff;
+    height: 40px;
+    flex: 1;
+    margin: 0 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+}
+.nav_search select{
+    height: 100%;
+    width: 50px;
+    border: none;
+    outline: none;
+    background: #eee;
+    border-right: 1px solid #ddd;
+}
+.nav_search input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+}
+.nav_search button{
+    width: 50px;
+    height: 100%;
+    background: var(--bg-gold);
+    border: none;
+    outline: none;
+    font-size: 22px;
+}
+
+.lang {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+.change_lang{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 250px;
+    height: 450px;
+    background: #fff;
+    border-radius: 4px;
+    color: #555;
+    padding: 15px;
+    box-shadow: 10px 10px 10px 10px #0001;
+    z-index: 10;
+}
+.change_lang h2
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+.change_lang::before{
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: 16.6%;
+    width: 13px;
+    height: 13px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+.language
+{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.language label
+{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.lang .img{
+    width: 24px;
+    margin-top: 4px;
+}
+.hr
+{
+    width: 100%;
+    height: 2px;
+    background: #eee;
+    margin-bottom: 10px;
+}
+.strim
+{
+    font-size: 14px;
+    color: #7A7A7A;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 15px;
+}
+.strim .s
+{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #288798;
+    margin-left: 10px;
+}
+.strim_span
+{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #288798;
+    margin-left: 45px;
+}
+.changeLang_img
+{
+    width: 70px;
+    height: 35px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.lang_bold
+{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.sign_in{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.sign_in .pp{
+    font-size: 12px;
+}
+.nav_shop{
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 8px;
+}
+.nav_shop svg{
+    font-size: 36px;
+}
+.signBox
+{
+    position: absolute;
+    top: 100%;
+    left: -250px;
+    width: 500px;
+    height: 375px;
+    background: #fff;
+    border-radius: 4px;
+    color: #555;
+    z-index: 10;
+    padding: 0 15px;
+    box-shadow: 10px 10px 10px 10px #0001;
+}
+.signBox::before{
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: 72.2%;
+    width: 13px;
+    height: 13px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+.topSignBox
+{
+    width: 100%;
+    height: 75px;
+    background: transparent;
+    border-bottom: 1px solid #c6c6c6;
+    text-align: center;
+}
+.sb_btn
+{
+    width: 180px;
+    height: 35px;
+    margin-top: 15px;
+    background: #f9a73c;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.sb_text
+{
+    font-size: 14px;
+    font-weight: 500;
+}
+.sb_span
+{
+    color: rgb(0, 0, 105);
+}
+.botSignBox
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.signCollection
+{
+    list-style-type: none;
+}
+.signItem
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}

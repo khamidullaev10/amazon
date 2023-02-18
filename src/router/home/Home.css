@@ -1,0 +1,63 @@
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: #E9EAEA;
+}
+.homeImg_box
+{
+    width: 100%;
+    height: 245px;
+    background-color: transparent;
+    overflow: hidden;
+}
+.homeImg_box img
+{
+    width: 100%;
+    height: 595px;
+}
+
+.home_child
+{
+    width: 100%;
+    /* height: 900px; */
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 30px;
+    padding-top: 10px;
+}
+.hc_item
+{
+    width: 350px;
+    height: 425px;
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.hc_item h2
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hc_item img
+{
+    width: 100%;
+    height: 250px;
+}
+.hc_item p
+{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #007199;
+    cursor: pointer;
+}
+.hc_item p:hover
+{
+    color: red;
+    text-decoration: underline;
+}

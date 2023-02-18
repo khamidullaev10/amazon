@@ -1,0 +1,19 @@
+.deliver_con{
+    padding: 40px;
+    min-height: 100vh;
+}
+.deliver_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.deliver_item{
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+.deliver_item img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
